@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+body {
+    background-image: url(https://sotni.ru/wp-content/uploads/2023/08/bliki-136.webp);
+    background-size: cover;
+    background-position: center;
+    color: rgb(235, 235, 224);    
+}
+.main_page {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+#title{
+    background-image: url(https://sotni.ru/wp-content/uploads/2023/08/razmytyi-fon-181.webp);
+    font-style: bold;
+    font-size: 3rem;
+    width: 100%;
+    max-width: 100%;
+    min-width: 50%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    font-family: Amatic SC, sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    
+}
+
+header {
+    margin-top: 50px;
+}
+
+.title {
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #F5FFFA;
+}
+
+.paragraph {
+
+    background-color:rgba(0, 0, 0, 0.5);
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 15px;
+    max-width: 800px;
+    border-radius: 15px;
+    font-size: 1.5rem;
+}
+.sub_title {
+    margin: 25%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.navigation_list {
+    padding: 15px;
+    width: 100%;
+    margin: auto;
+    background-color:rgba(0, 0, 0, 0.5);
+    position:fixed;
+    top: 0;
+    
+}
+
+.navigation_list li {
+    display:inline-block;
+    text-align: center;
+    list-style: none;
+    width: 32%;
+    margin: auto;
+}
+
+.navigation_list li a {
+    text-decoration: none;
+    color: rgb(235, 235, 224);
+    
+    padding: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ .navigation {
+    max-width: 100%;
+ }
+
+ .pictures {
+    margin: auto;
+    text-align: center;
+ }
+
+ .mess {
+    margin: auto;
+    text-align: right;
+    padding-right: 15px;
+ }
+
+ .targets{
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.5);
+    font-size: 1.3rem;
+ }
+
+ .targets li {
+    padding-bottom: 5px;
+    transition: 0.5s;
+    list-style: none;
+ }
+
+  .targets li:hover {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 1.2rem;
+    background-color:rgba(195, 105, 26, 0.3);
+ }
+
+ .button {
+    margin: 15px;
+    background-color:black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+    color: rgb(235, 235, 224);
+ }
+
+ .button:hover {
+    background-color:rgba(195, 105, 26, 0.3);
+ }
+
+ .footer {
+    margin-bottom: 20px;
+ }
