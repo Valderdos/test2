@@ -9,6 +9,8 @@ body {
 .main_page {
     margin-left: 0%;
     margin-right: 0%;
+    width: 100%;
+    min-width: 100%;
 }
 
 #title{
@@ -18,7 +20,7 @@ body {
     width: 100%;
     max-width: 100%;
     min-width: 50%;
-    margin: auto;
+    
     text-align: center;
     
 }
@@ -38,9 +40,10 @@ header {
 }
 
 .title {
-    margin: auto;
+    
     text-align: center;
-    padding: 20px;
+    padding-bottom: 15;
+    padding-top: 15;
     background-color: #F5FFFA;
 }
 
